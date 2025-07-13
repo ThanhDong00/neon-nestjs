@@ -1,0 +1,13 @@
+###
+# @name create-user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+
+###
+# @name get-users
+GET http://localhost:3000/users
